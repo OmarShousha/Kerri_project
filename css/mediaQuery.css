@@ -1,0 +1,26 @@
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*& ════════▶ Home */
+  header{
+    height: 100vh;
+    & .container{
+      margin-top: 56px;
+    }
+
+    & p{
+      margin-bottom: 20px;
+    }
+
+    & .scroll_down{
+      bottom: 9vh;
+    }
+  }
+
+  }
+ 
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .w-lg-75{
+    width: 75%;
+  }
+ }
